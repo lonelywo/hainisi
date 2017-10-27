@@ -175,7 +175,7 @@ public class MainActivity extends BaseActivity {
                 .setNormalResId(R.drawable.icon_page_control_bg)
                 .setFocusResId(R.drawable.icon_page_control_current)
                 .setGravity(Gravity.RIGHT)
-                .setMargin(0, 500, 20, 0)
+                .setMargin(0,500,20,0)
                 .build();
 
         //设定页面循环播放
