@@ -154,11 +154,10 @@ public class MainActivity extends BaseActivity {
         MenuAdapter menuAdapter = new MenuAdapter(this, menuList);
         listMenu.setAdapter(menuAdapter);
 
-        mList.add("http://pic1.win4000.com/wallpaper/f/57523a17c02ad.jpg");
-        mList.add("http://pic1.win4000.com/wallpaper/c/57fc5f21e8db8.jpg");
-        mList.add("http://att.bbs.duowan.com/forum/201309/27/1217450m53d16fo00zm3rk.jpg");
-        mList.add("http://pic.3h3.com/up/2016-11/20161125163114985980.jpg");
-        mList.add("http://p2.so.qhimgs1.com/t018d6b67924f479052.jpg");
+        mList.add("http://zb.wdzbd.com/sy_img/sy1.jpg");
+        mList.add("http://zb.wdzbd.com/sy_img/sy1.jpg");
+        mList.add("http://zb.wdzbd.com/sy_img/sy1.jpg");
+
 
 
 
