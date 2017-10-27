@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.haima.hainisi">
+    package="com.renma.hainisi">
     <!-- 设置该应用应用只用于最小可用宽度为 600dp 的平板电脑样式设备 -->
     <supports-screens
         android:largeScreens="true"
@@ -12,14 +12,14 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <application
-        android:name=".activity.MyApp"
+        android:name="com.renma.hainisi.activity.MyApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.LoginActivity"
+        <activity android:name="com.renma.hainisi.activity.LoginActivity"
             android:screenOrientation="landscape"
             >
             <intent-filter>
@@ -28,28 +28,28 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.MainActivity"
+        <activity android:name="com.renma.hainisi.activity.MainActivity"
             android:screenOrientation="landscape"
             />
-        <activity android:name=".activity.SelectionofDiamondsActivity"
+        <activity android:name="com.renma.hainisi.activity.SelectionofDiamondsActivity"
             android:screenOrientation="landscape"
             />
-        <activity android:name=".activity.ChoiceStyleActivity"
+        <activity android:name="com.renma.hainisi.activity.ChoiceStyleActivity"
             android:screenOrientation="landscape"
             />
-        <activity android:name=".activity.LoversRingActivity"
+        <activity android:name="com.renma.hainisi.activity.LoversRingActivity"
             android:screenOrientation="landscape"
             />
-        <activity android:name=".activity.OnlineMallActivity"
+        <activity android:name="com.renma.hainisi.activity.OnlineMallActivity"
             android:screenOrientation="landscape"
             />
-        <activity android:name=".activity.ProprietaryDesignActivity"
+        <activity android:name="com.renma.hainisi.activity.ProprietaryDesignActivity"
             android:screenOrientation="landscape"
             />
-        <activity android:name=".activity.ShopCarActivity"
+        <activity android:name="com.renma.hainisi.activity.ShopCarActivity"
             android:screenOrientation="landscape"
             />
-        <activity android:name=".activity.PeopleActivity"
+        <activity android:name="com.renma.hainisi.activity.PeopleActivity"
             android:screenOrientation="landscape"
             />
     </application>
