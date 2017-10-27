@@ -17,8 +17,12 @@ public class ChoiceStyleActivity extends BaseActivity{
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(getLayoutId());
-
+         initdata();
     }
+
+    private void initdata() {
+    }
+
 
     @Override
     public int getLayoutId() {
