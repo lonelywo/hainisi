@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.haima.hainisi">
+    <!-- 设置该应用应用只用于最小可用宽度为 600dp 的平板电脑样式设备 -->
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="false"
+        android:requiresSmallestWidthDp="600"
+        android:smallScreens="false"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:name=".activity.MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.LoginActivity"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.MainActivity"
+            android:screenOrientation="landscape"
+            />
+        <activity android:name=".activity.SelectionofDiamondsActivity"
+            android:screenOrientation="landscape"
+            />
+        <activity android:name=".activity.ChoiceStyleActivity"
+            android:screenOrientation="landscape"
+            />
+        <activity android:name=".activity.LoversRingActivity"
+            android:screenOrientation="landscape"
+            />
+        <activity android:name=".activity.OnlineMallActivity"
+            android:screenOrientation="landscape"
+            />
+        <activity android:name=".activity.ProprietaryDesignActivity"
+            android:screenOrientation="landscape"
+            />
+        <activity android:name=".activity.ShopCarActivity"
+            android:screenOrientation="landscape"
+            />
+        <activity android:name=".activity.PeopleActivity"
+            android:screenOrientation="landscape"
+            />
+    </application>
+
+</manifest>

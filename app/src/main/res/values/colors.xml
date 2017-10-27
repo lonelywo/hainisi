@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFFFF</color>
+    <color name="colorAccent">#FFFFFFFF</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <!--半透明-->
+    <color name="trans_bg">#50000000</color>
+    <!--全局背景颜色-->
+    <color name="content_bg_color">#F5F5F5</color>
+    <!-- 首页tab栏背景颜色 -->
+    <color name="main_tab_bg">#EBEBEB</color>
+    <!-- 首页tab栏默认字体颜色 -->
+    <color name="main_tab_text_default">#949494</color>
+    <!-- 首页tab栏选中字体颜色 -->
+    <color name="main_tab_text_select">#D43F65</color>
+    <!-- 标题栏背景颜色 -->
+    <color name="title_bar_bg">#D43F65</color>
+    <!-- 标题栏字体颜色 -->
+    <color name="title_bar_text_color">#FFFFFF</color>
+    <!-- 自动加载更多文本颜色 -->
+    <color name="auto_load_text">#B6B6B6</color>
+    <!-- 最底层颜色 -->
+    <color name="lowest_color">#F5F5F5</color>
+    <!-- 旅拍首页Item中标题的颜色 -->
+    <color name="journey_take_item_title">#2E2E2E</color>
+    <!-- 旅拍首页Item中时间的颜色 -->
+    <color name="journey_take_item_time">#ADADAD</color>
+    <!-- 旅拍首页Item中参与模特的颜色 -->
+    <color name="journey_take_item_model">#7A7A7A</color>
+    <!-- 旅拍首页Item中模特的名字颜色 -->
+    <color name="journey_take_item_model_name">#616161</color>
+    <!-- 旅拍首页Item中模特的秀币颜色 -->
+    <color name="journey_take_item_model_money">#FF658C</color>
+    <!-- 线颜色 -->
+    <color name="item_line_color">#E0E0E0</color>
+    <!-- 旅拍活动页进度条颜色 -->
+    <color name="journey_take_detail_pb_progress">#40D4AF</color>
+    <!-- 旅拍活动页筹集目标字体颜色 -->
+    <color name="journey_take_detail_target">#474747</color>
+    <!-- 旅拍支持排行榜V颜色 -->
+    <color name="support_ranking_v">#F2C746</color>
+    <!-- 基本颜色 -->
+    <color name="black">#FF000000</color>
+    <color name="black_131313">#131313</color>
+    <color name="blue">#FF2A91BD</color>
+    <color name="orange">#FFFF9D2F</color>
+    <color name="red">#FFFF432F</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey_484848">#484848</color>
+    <color name="grey_d6d6d6">#d6d6d6</color>
+    <color name="grey_b4b4b4">#b4b4b4</color>
+    <color name="grey_e2e2e2">#ececec</color>
+
+    <color name="gray">#FFC0C0C0</color>
+    <color name="gray_f6f6f6">#f6f6f6</color>
+    <color name="transparent">#00000000</color>
+    <color name="statedilog">#000000</color>
+    <color name="green">#40D4Af</color>
+    <color name="comm_black">#FF000000</color>
+    <color name="grey_a900">#44212121</color>
+    <color name="yellow">#D4AF40</color>
+    <!-- divider -->
+    <color name="divider">#e2e2e2</color>
+    <color name="divider_2">#939393</color>
+    <!--文本颜色-->
+    <color name="textSmall">#ADADAD</color>
+    <color name="textNormal">#2E2E2E</color>
+    <color name="textDesc">#7A7A7A</color>
+    <color name="textDesc2">#616161</color>
+    <color name="textDesc3">#E0E0E0</color>
+    <color name="textValue">#ff658c</color>
+    <color name="textTips">#6BCEFC</color>
+    <color name="textDesc_474747">#474747</color>
+    <color name="text_C7C7C7">#C7C7C7</color>
+    <color name="textBlue">#6bcefc</color>
+    <color name="textBlue_2">#12A6EB</color>
+    <color name="text_f2c746">#F2C746</color>
+    <color name="text_CC891f">#CC891f</color>
+    <color name="text_413D3D">#413D3D</color>
+
+    <!--pink-->
+    <color name="btnPink">#ff658c</color>
+    <color name="pink300">#F06292</color>
+    <color name="text9">#999999</color>
+
+    <!--customer dialog-->
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+
+    <!--按钮的颜色-->
+    <color name="blueBtn">#6BCEFC</color>
+    <color name="lightblue">#BBDEFB</color>
+    <color name="greenBtn">#40D4AF</color>
+    <color name="greyBtn">#F1E9E9</color>
+
+    <!--按钮变灰不可用的颜色-->
+    <color name="btnDisable">#E0E0E0</color>
+    <!--按钮边框颜色-->
+    <color name="border_grey">#7A7A7A</color>
+
+
+    <!--聊天背景-->
+    <color name="chat_bg">#F5F5F5</color>
+    <color name="to_top">#6BCEFC</color>
+    <color name="m_name">#871B36</color>
+    <color name="b_name">#E4AE0C</color>
+    <color name="orange_d5b75f">#d5b75f</color>
+    <color name="navigationBg">#38373B</color><!--标题栏和状态栏的背景色-->
+    <color name="guide_red">#F85151</color>
+    <color name="link_color">#0991d0</color>
+
+    <!--日历-->
+    <color name="yellowDayCircleBgColor">#fed824</color>
+    <color name="orangeDayCircleBgColor">#f0832a</color>
+    <color name="rule_tip">#D43F65</color>
+
+    <!--浏览图片的黑色-->
+    <color name="blackPreview">#1c1b1e</color>
+    <!--套图推荐的背景-->
+    <color name="taotuRecommendBg">#38373B</color>
+    <color name="grey_cecece">#cecece</color>
+</resources>

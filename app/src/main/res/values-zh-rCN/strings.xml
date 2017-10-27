@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <string name="qldj">情侣对戒</string>
+        <string name="jxks">精选款式</string>
+        <string name="yxmz">优选美钻</string>
+        <string name="zxsc">在线商城</string>
+        <string name="zssj">专属设计</string>
+        <string name="gwc">购物车</string>
+        <string name="wdzh">我的账户</string>
+        <string name="tcdl">退出登录</string>
+        <string name="nsrdyhmhmmcw">您输入的用户名和密码错误!</string>
+
+
+
+
+        <string name="cxjg">查询结果</string>
+        <string name="xz">形状</string>
+        <string name="zl">重量</string>
+        <string name="kl">克拉</string>
+        <string name="ys">颜色</string>
+        <string name="jd">净度</string>
+        <string name="qg">切工</string>
+        <string name="cx">查询</string>
+
+
+
+
+        <string name="gnkc">国内库存</string>
+        <string name="hwkc">海外库存</string>
+        <string name="szd">所在地</string>
+        <string name="pg">拋光</string>
+        <string name="dc">对称</string>
+        <string name="yg">荧光</string>
+        <string name="zsh">证书号</string>
+        <string name="tp">图片</string>
+        <string name="sp">视频</string>
+        <string name="jg">价格</string>
+        <string name="dg">订购</string>
+        <string name="jrgwc">加入购物车</string>
+        <string name="yx">圆形</string>
+        <string name="pt">配托</string>
+
+
+
+        <string name="hh">货号</string>
+        <string name="hh_">货号:</string>
+        <string name="kh">款号</string>
+        <string name="kh_">款号:</string>
+        <string name="kxzzzl">可镶主钻重量</string>
+        <string name="kxzzzl_">可镶主钻重量:</string>
+        <string name="kxzzxz">可镶主钻形状</string>
+        <string name="kxzzxz_">可镶主钻形状:</string>
+        <string name="jz">金重</string>
+        <string name="jz_">金重:</string>
+        <string name="fzzl">副钻重量</string>
+        <string name="fzzl_">副钻重量:</string>
+        <string name="fzls">副钻粒数</string>
+        <string name="fzls_">副钻粒数:</string>
+        <string name="sc">手寸</string>
+        <string name="sd">试戴</string>
+
+
+        <string name="bz">备注</string>
+        <string name="bz_">备注:</string>
+        <string name="xdckqxz">选定此款去选钻</string>
+        <string name="drbbczp">登录并保存照片</string>
+        <string name="jmrw18kbs">18K金默认为18K白色，如有刻字、更换18K金颜色，请标注于备注框内。</string>
+        <string name="lkdg">立刻订购</string>
+        <string name="spxq">商品详情</string>
+
+        <string name="ckjrgwc">此款加入购物车，现在前往选钻页面!</string>
+        <string name="qr">确认</string>
+
+        <string name="npdzjdzp">您佩戴钻戒的照片已存入您的相册</string>
+        <string name="cgjrgwc">成功加入购物车</string>
+        <string name="cz">材质</string>
+
+        <string name="cz_">材质:</string>
+        <string name="lb">类别</string>
+        <string name="hhkh">货号/款号:</string>
+
+        <string name="jg_">价格:</string>
+        <string name="zszl">钻石重量</string>
+        <string name="zszl_">钻石重量:</string>
+
+        <string name="zsys">钻石顏色</string>
+        <string name="zsys_">钻石顏色:</string>
+        <string name="zsjd">钻石净度</string>
+        <string name="zsjd_">钻石净度</string>
+        <string name="cpzs">成品证书</string>
+        <string name="cpzs_">成品证书:</string>
+
+
+        <string name="scyx">上传影像</string>
+        <string name="cxcxz">从相册选择</string>
+        <string name="qx">取消</string>
+        <string name="bxndgs">编写你的故事</string>
+        <string name="dzcp">定制产品:</string>
+        <string name="sc_">手寸:</string>
+        <string name="gbwxewm">贵宾微信二维码:</string>
+        <string name="gbxm">贵宾姓名:</string>
+        <string name="qd">确定</string>
+        <string name="xhckxpdqtmz">喜欢此款，需配对其他美钻，您还可以：</string>
+        <string name="xzqttkxh">选择其他同款现货</string>
+        <string name="zsdz">专属定制</string>
+        <string name="xq">详情</string>
+
+
+        <string name="ljck">立即查看</string>
+        <string name="nak">男款</string>
+        <string name="nvk">女款</string>
+        <string name="zzzl">主钻重量</string>
+        <string name="zzzl_">主钻重量:</string>
+        <string name="zzys">主钻颜色</string>
+        <string name="zzys_">主钻颜色:</string>
+        <string name="zzjd">主钻净度</string>
+        <string name="zzjd_">主钻净度:</string>
+        <string name="jmm">旧密码</string>
+        <string name="xmm">新密码</string>
+        <string name="qrmm">确认密码</string>
+        <string name="shrdz">收货人地址</string>
+        <string name="yhm">用户名</string>
+
+
+        <string name="dwmc">单位名称</string>
+        <string name="fzr">负责人</string>
+        <string name="dwdz">单位地址</string>
+        <string name="dwdh">单位电话</string>
+        <string name="dwcz">单位传真</string>
+        <string name="zs">证书</string>
+        <string name="zs_">证书:</string>
+        <string name="kz">刻字:</string>
+        <string name="qsrbzxx">请输入备注信息</string>
+
+
+
+        <string name="qljysmrwtpssys">情侣戒颜色默认为图片所示颜色，若有特殊要求，请填写于备注框。</string>
+        <string name="caz">操作</string>
+        <string name="wddd">我的订单</string>
+        <string name="grxx">个人信息</string>
+        <string name="shxx">收货信息</string>
+        <string name="xgmm">修改密码</string>
+        <string name="ddh">订单号</string>
+        <string name="shr">收货人</string>
+        <string name="lxfs">联系方式</string>
+        <string name="ddzt">订单状态</string>
+        <string name="dgsj">订购时间</string>
+        <string name="cgcz">常规操作</string>
+
+
+
+        <string name="ckxq">查看详情</string>
+        <string name="qxdd">取消订单</string>
+        <string name="gjbj">国际报价</string>
+        <string name="zk">折扣</string>
+        <string name="rmbjg">人命币价格</string>
+        <string name="gl">管理</string>
+        <string name="sac">删除</string>
+        <string name="plsc">批量删除</string>
+        <string name="ktcz">空托材质</string>
+        <string name="jmsp">精美饰品</string>
+        <string name="qlj">情侣戒</string>
+        <string name="rykzhyjyq">如有刻字或印记要求，请填写于备注框内</string>
+        <string name="xdckqnt">选定此款,去粘贴</string>
+
+
+        <string name="xdckh">选定此款后，该款空托会放入购物车，您可在购物车中确定下单或者删除此款。</string>
+        <string name="cgjrgwcqqwtxzs">成功加入购物车，请前往挑选钻石!</string>
+        <string name="ddqr">订单确认</string>
+        <string name="hw">货物</string>
+        <string name="cc">尺寸</string>
+        <string name="rmb">人民币</string>
+        <string name="qqrhp">请确认货品、确认下面所示收货信息并提交订单，如需修改收货地址请返回，并到“我的订单”中的“收货信息”中修改"</string>
+        <string name="shrxm">收货人姓名</string>
+        <string name="shrdh">收货人电话</string>
+
+
+
+        <string name="shrsj">收货人手机</string>
+        <string name="shdz">收货人地址</string>
+        <string name="yzbm">邮政编码</string>
+        <string name="fh">返回</string>
+        <string name="tjdd">提交订单</string>
+        <string name="npdzjdzpycrndxc">您佩戴钻戒的照片已存入您的相册!</string>
+        <string name="bc">保存</string>
+        <string name="cxps">重新拍摄</string>
+        <string name="pszp">拍摄照片</string>
+        <string name="tzjz">调整戒指</string>
+        <string name="ctxz">传 统 选 钻</string>
+        <string name="Cxz">4 C 选 钻</string>
+
+    </resources>
