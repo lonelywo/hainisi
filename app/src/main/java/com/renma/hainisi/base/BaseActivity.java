@@ -9,6 +9,7 @@ import android.widget.Toast;
 
 import com.renma.hainisi.callback.InterfaceShowToastAndProgress;
 
+import butterknife.ButterKnife;
 
 
 public abstract class BaseActivity extends AppCompatActivity implements InterfaceShowToastAndProgress{

@@ -14,9 +14,7 @@ import com.renma.hainisi.callback.InterfaceShowToastAndProgress;
 
 import butterknife.ButterKnife;
 
-/**
- * Created by Administrator on 2017/6/28.
- */
+
 
 public abstract class Basefragment extends Fragment implements InterfaceShowToastAndProgress {
     protected String Tag=getClass().getSimpleName();
