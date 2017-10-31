@@ -9,7 +9,7 @@
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rec_kl_img"
-        android:layout_width="wrap_content"
+        android:layout_width="680dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
 
@@ -34,10 +34,11 @@
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/rec_kl"
-            android:layout_width="wrap_content"
+            android:layout_width="680dp"
             android:layout_height="wrap_content"
             android:background="@drawable/bg_gray_stroke"
             android:layout_centerHorizontal="true"
+
             >
 
         </android.support.v7.widget.RecyclerView>
@@ -45,7 +46,7 @@
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rec_ys_img"
-        android:layout_width="wrap_content"
+        android:layout_width="680dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
 
@@ -70,10 +71,11 @@
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/rec_ys"
-            android:layout_width="wrap_content"
+            android:layout_width="680dp"
             android:layout_height="wrap_content"
             android:background="@drawable/bg_gray_stroke"
             android:layout_centerHorizontal="true"
+
             >
 
         </android.support.v7.widget.RecyclerView>
@@ -81,62 +83,76 @@
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rec_jd_img"
+        android:layout_width="680dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+
+        ></android.support.v7.widget.RecyclerView>
+
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="80dp"
-        >
-    </android.support.v7.widget.RecyclerView>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
 
         >
+
         <TextView
             android:id="@+id/tv_jd"
-            android:layout_width="80dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:text="@string/jd" />
+            android:layout_centerVertical="true"
+            android:text="@string/ys"
+            android:layout_toStartOf="@+id/rec_jd"
+            android:layout_marginRight="10dp"
+            />
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/rec_jd"
-            android:layout_width="match_parent"
+            android:layout_width="680dp"
             android:layout_height="wrap_content"
-            android:background="@drawable/bg_gray_stroke">
+            android:background="@drawable/bg_gray_stroke"
+            android:layout_centerHorizontal="true"
+
+            >
 
         </android.support.v7.widget.RecyclerView>
-    </LinearLayout>
+    </RelativeLayout>
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rec_qg_img"
-        android:layout_width="match_parent"
+        android:layout_width="680dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="80dp"
-        >
-    </android.support.v7.widget.RecyclerView>
+        android:layout_gravity="center_horizontal"
 
-    <LinearLayout
+
+        ></android.support.v7.widget.RecyclerView>
+
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
 
         >
 
         <TextView
             android:id="@+id/tv_qg"
-            android:layout_width="80dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:text="@string/qg" />
+            android:layout_centerVertical="true"
+            android:text="@string/ys"
+            android:layout_toStartOf="@+id/rec_qg"
+            android:layout_marginRight="10dp"
+            />
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/rec_qg"
-            android:layout_width="match_parent"
+            android:layout_width="680dp"
             android:layout_height="wrap_content"
-            android:background="@drawable/bg_gray_stroke">
+            android:background="@drawable/bg_gray_stroke"
+            android:layout_centerHorizontal="true"
+
+            >
 
         </android.support.v7.widget.RecyclerView>
-    </LinearLayout>
+    </RelativeLayout>
     <TextView
         android:id="@+id/query"
         android:paddingTop="5dp"

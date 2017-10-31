@@ -3,8 +3,8 @@
      android:layout_width="wrap_content"
     android:layout_height="wrap_content">
  <CheckBox
-     android:id="@+id/cbox_4c_kl"
-     android:layout_width="63dp"
+     android:id="@+id/cbox_4c_ys"
+     android:layout_width="70dp"
      android:layout_height="45dp"
      android:padding="@dimen/margin_5"
      android:layout_gravity="center_vertical"
@@ -12,5 +12,6 @@
      android:button="@null"
      android:background="@drawable/check_slt_kl"
      android:layout_margin="2dp"
+
      />
 </LinearLayout>
