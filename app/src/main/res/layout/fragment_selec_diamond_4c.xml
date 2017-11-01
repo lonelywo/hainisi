@@ -101,7 +101,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:text="@string/ys"
+            android:text="@string/jd"
             android:layout_toStartOf="@+id/rec_jd"
             android:layout_marginRight="10dp"
             />
@@ -137,7 +137,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:text="@string/ys"
+            android:text="@string/qg"
             android:layout_toStartOf="@+id/rec_qg"
             android:layout_marginRight="10dp"
             />
