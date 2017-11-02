@@ -4,7 +4,7 @@
     android:layout_height="wrap_content">
  <CheckBox
      android:id="@+id/cbox_4c_ys"
-     android:layout_width="70dp"
+     android:layout_width="70.5dp"
      android:layout_height="45dp"
      android:padding="@dimen/margin_5"
      android:layout_gravity="center_vertical"

@@ -24,65 +24,116 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:orientation="horizontal"
-      android:padding="5dp"
+
       >
 
-
-     <ImageView
+     <CheckBox
+         android:id="@+id/cbox_img_yx"
         android:layout_width="0dp"
         android:layout_weight="1"
         android:layout_height="wrap_content"
-        android:src="@drawable/img_d_shape"
          android:gravity="center"
+         android:drawableTop="@drawable/img_d_shape"
+         android:button="@null"
+         android:text="yx"
+         android:textSize="0dp"
+         android:background="@drawable/check_slt_kl"
+         android:padding="5dp"
+
         />
-        <ImageView
+
+      <CheckBox
+          android:id="@+id/cbox_img_gzf"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:background="@drawable/check_slt_kl"
+          android:button="@null"
+          android:drawableTop="@drawable/img_e_shape"
+          android:gravity="center"
+          android:text="gzf"
+          android:textSize="0dp"
+          android:padding="5dp"
+
+          />
+
+      <CheckBox
+            android:id="@+id/cbox_img_lx"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:src="@drawable/img_e_shape"
             android:gravity="center"
+            android:drawableTop="@drawable/img_f_shape"
+            android:button="@null"
+            android:text="lx"
+            android:textSize="0dp"
+            android:background="@drawable/check_slt_kl"
+          android:padding="5dp"
             />
-        <ImageView
+        <CheckBox
+            android:id="@+id/cbox_img_xx"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:src="@drawable/img_f_shape"
             android:gravity="center"
+            android:drawableTop="@drawable/img_g_shape"
+            android:button="@null"
+            android:text="xx"
+            android:textSize="0dp"
+            android:background="@drawable/check_slt_kl"
+            android:padding="5dp"
             />
-        <ImageView
+        <CheckBox
+            android:id="@+id/cbox_img_myx"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:src="@drawable/img_g_shape"
             android:gravity="center"
+            android:drawableTop="@drawable/img_h_shape"
+            android:button="@null"
+            android:text="myx"
+            android:textSize="0dp"
+            android:background="@drawable/check_slt_kl"
+            android:padding="5dp"
             />
-        <ImageView
+        <CheckBox
+            android:id="@+id/cbox_img_tyx"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:src="@drawable/img_h_shape"
             android:gravity="center"
+            android:drawableTop="@drawable/img_i_shape"
+            android:button="@null"
+            android:text="tyx"
+            android:textSize="0dp"
+            android:background="@drawable/check_slt_kl"
+            android:padding="5dp"
             />
-        <ImageView
+        <CheckBox
+            android:id="@+id/cbox_img_zml"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:src="@drawable/img_i_shape"
             android:gravity="center"
+            android:drawableTop="@drawable/img_j_shape"
+            android:button="@null"
+            android:text="zml"
+            android:textSize="0dp"
+            android:background="@drawable/check_slt_kl"
+            android:padding="5dp"
             />
-        <ImageView
+        <CheckBox
+            android:id="@+id/cbox_img_dx"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:src="@drawable/img_j_shape"
             android:gravity="center"
-            />
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:src="@drawable/img_k_shape"
-            android:gravity="center"
+            android:drawableTop="@drawable/img_k_shape"
+            android:button="@null"
+            android:text="dx"
+            android:textSize="0dp"
+            android:background="@drawable/check_slt_kl"
+            android:padding="5dp"
             />
   </LinearLayout>
     </LinearLayout>

@@ -12,5 +12,9 @@
         parent="@android:style/Theme.Dialog">
         <item name="android:windowBackground">@drawable/selector_dialog_bg</item>
     </style>
+    <style name="MyCheckBox" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorControlActivated">@color/green</item>
+    </style>
 
 </resources>

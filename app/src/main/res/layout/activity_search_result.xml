@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_35">
+
+        <Button
+            android:id="@+id/btn_fh"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:background="#00000000"
+            android:drawableLeft="@drawable/btn_fh"
+            android:text="返回"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:layout_centerInParent="true"
+            android:text="精选美钻"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:layout_alignParentRight="true"
+            android:text="加入购物车"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+
+     >
+     <CheckBox
+         android:layout_weight="1"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:theme="@style/MyCheckBox"
+         />
+      <TextView
+          android:layout_weight="1"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:text="@string/xz"
+          />
+     <TextView
+         android:layout_weight="1"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:text="@string/zl"
+         />
+     <TextView
+         android:layout_weight="1"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:text="@string/ys"
+         />
+     <TextView
+         android:layout_weight="1"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:text="@string/jd"
+         />
+     <TextView
+         android:layout_weight="1"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:text="@string/qg"
+         />
+     <TextView
+         android:layout_weight="1"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:text="@string/pg"
+         />
+     <TextView
+         android:layout_weight="1"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:text="@string/dc"
+         />
+     <TextView
+         android:layout_weight="1"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:text="@string/yg"
+         />
+     <TextView
+         android:layout_weight="1"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:text="@string/zsh"
+         />
+     <TextView
+
+         android:layout_width="80dp"
+         android:layout_height="wrap_content"
+         android:text="@string/tp"
+         android:gravity="center"
+         />
+     <TextView
+
+         android:layout_width="80dp"
+         android:layout_height="wrap_content"
+         android:text="@string/sp"
+         android:gravity="center"
+         />
+     <TextView
+         android:layout_weight="1"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:text="@string/jg"
+         />
+     <TextView
+         android:layout_weight="2"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:text="@string/dg"
+         android:gravity="center_horizontal"
+         android:layout_gravity="center_vertical"
+         />
+
+ </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <CheckBox
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/xz"
+            />
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/zl"
+            />
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ys"
+            />
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/jd"
+            />
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/qg"
+            />
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/pg"
+            />
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/dc"
+            />
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/yg"
+            />
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/zsh"
+            />
+        <ImageView
+
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/inquiryresultimage"
+            android:layout_gravity="center"
+
+            />
+        <ImageView
+
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/inquiryresultvideo"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/jg"
+            />
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dg"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="|"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pt"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rec_search_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+</LinearLayout>

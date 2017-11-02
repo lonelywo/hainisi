@@ -1,6 +1,7 @@
 package com.renma.hainisi.fragment;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.LinearLayoutManager;
@@ -11,6 +12,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.renma.hainisi.R;
+import com.renma.hainisi.activity.SearchResultActivity;
 import com.renma.hainisi.adapter.JDAdapter;
 import com.renma.hainisi.adapter.JDRecImgAdapter;
 import com.renma.hainisi.adapter.KLAdapter;
@@ -24,6 +26,10 @@ import com.renma.hainisi.bean.JD_checkBean;
 import com.renma.hainisi.bean.KL_checkBean;
 import com.renma.hainisi.bean.QG_checkBean;
 import com.renma.hainisi.bean.YS_checkBean;
+import com.renma.hainisi.utils.Constants;
+import com.renma.hainisi.utils.DataUtil;
+import com.renma.hainisi.utils.LogUtil;
+import com.renma.hainisi.utils.MD5Util;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -214,6 +220,22 @@ public class FourCSelectDiamondsFragment extends Basefragment {
         recQg.setHasFixedSize(true);
         QGAdapter qgAdapter = new QGAdapter(mlist3);
         recQg.setAdapter(qgAdapter);
+        initListen();
+    }
+
+    private void initListen() {
+        
+        query.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(mContext, SearchResultActivity.class);
+                startActivity(intent);
+                String s = (Constants.RM_LOGIN_APPSECRET + "password" + DataUtil.getString(Constants.RM_LOGIN_PASSWORD) +"token"+DataUtil.getString(Constants.RM_LOGIN_TOKEN)+ "username" + DataUtil.getString(Constants.RM_LOGIN_ACCOUNT)+ Constants.RM_LOGIN_APPSECRET).toLowerCase();
+                String sign = MD5Util.getMd5Value(s);
+                LogUtil.d(DataUtil.getString(Constants.RM_LOGIN_TOKEN)+"!!!!!"+sign);
+
+            }
+        });
     }
 
     private void initDatas() {

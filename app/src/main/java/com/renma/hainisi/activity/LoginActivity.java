@@ -82,9 +82,14 @@ public class LoginActivity extends BaseActivity {
                          hideDialogFragment(mProgressDialogFragment);
                          LoginBean loginBean = GsonUtils.GsonToBean(response, LoginBean.class);
 
+
                          if(loginBean.getCode().equals("0002")){
-                             //保存token
+                             //保存token帐号密码
                              DataUtil. setSharePreferences(Constants.RM_LOGIN_TOKEN,loginBean.getToken());
+                             DataUtil. setSharePreferences(Constants.RM_LOGIN_ACCOUNT,etUsername.getText().toString());
+                             DataUtil. setSharePreferences(Constants.RM_LOGIN_PASSWORD,etPwd.getText().toString());
+                             LogUtil.d(etUsername.getText().toString()+"!!!!!!!!!!!!!"+etPwd.getText().toString());
+
                              Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                              startActivity(intent);
                              finish();

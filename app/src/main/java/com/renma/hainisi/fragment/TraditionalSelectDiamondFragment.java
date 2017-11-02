@@ -144,33 +144,9 @@ public class TraditionalSelectDiamondFragment extends Basefragment {
     }
 
     private void initListen() {
-        edt1.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
-            }
 
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-                if(s.toString().isEmpty()==false){
 
-                   int vaule=Integer.valueOf(s.toString());
-                   if(vaule<(int)0.1){
-                     edt1.setText("0.1");
-                      showShortToast("超出取值范围");
-                   }else if(vaule>20){
-                       edt1.setText("20");
-                       showShortToast("超出取值范围");
-                   }
-
-                }
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-
-            }
-        });
     }
 
     @Override
