@@ -230,7 +230,7 @@ public class FourCSelectDiamondsFragment extends Basefragment {
             public void onClick(View v) {
                 Intent intent = new Intent(mContext, SearchResultActivity.class);
                 startActivity(intent);
-                String s = (Constants.RM_LOGIN_APPSECRET + "password" + DataUtil.getString(Constants.RM_LOGIN_PASSWORD) +"token"+DataUtil.getString(Constants.RM_LOGIN_TOKEN)+ "username" + DataUtil.getString(Constants.RM_LOGIN_ACCOUNT)+ Constants.RM_LOGIN_APPSECRET).toLowerCase();
+                String s = (Constants.RM_LOGIN_APPSECRET + "token"+DataUtil.getString(Constants.RM_LOGIN_TOKEN)+  Constants.RM_LOGIN_APPSECRET).toLowerCase();
                 String sign = MD5Util.getMd5Value(s);
                 LogUtil.d(DataUtil.getString(Constants.RM_LOGIN_TOKEN)+"!!!!!"+sign);
 

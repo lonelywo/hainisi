@@ -144,8 +144,27 @@ public class TraditionalSelectDiamondFragment extends Basefragment {
     }
 
     private void initListen() {
+        edt1.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
+            }
 
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                Double aDouble = Double.valueOf(s.toString());
+                if(aDouble<0.1){
+                    edt1.setText("0.1");
+                }else if(aDouble>20){
+                    edt1.setText("20");
+                }
+            }
+        });
 
     }
 
